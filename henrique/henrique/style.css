@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url("background.webp");
+}
+
+header {
+    background-color: #004AAD;
+    color: white;
+    text-align: left;
+    padding: 10px ;
+}
+
+.caixaDasMarcas{
+    width: 200px;
+    margin-right: 0px;/*Move o quadrado para a esquerda */
+    margin-top: 10px; /* Move o quadrado para baixo */
+    margin-left: 200px; /* Move o quadrado para a direita */
+  
+}
+
+
+
+
+
+.marcas{
+    flex: 1;
+    background-color: #004AAD;
+    border-radius:10px;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-right: -1px;/*Move o quadrado para a esquerda */
+    margin-left: -1px; /* Move o quadrado para a direita */
+    width: 200px;
+    height:220px;
+    margin-block: 20px;
+}
+
+.marcas img{
+    width: 200px;
+    height: 200px;
+}
+
+.logo {
+width: 20%;
+}
