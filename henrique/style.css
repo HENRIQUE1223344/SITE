@@ -1,5 +1,18 @@
 
 
+body {
+     
+          background-image: linear-gradient(to right, #496692,#ffffff);
+     
+        
+}
+    
+          
+
+    
+
+
+
 header {
     background-color: #004AAD;
     color: white;
@@ -13,7 +26,7 @@ header {
 
 
 .caixaDasMarcas{
-    width: 200px;
+    width: 100px;
     margin-right: 0px;/*Move o quadrado para a esquerda */
     margin-top: 10px; /* Move o quadrado para baixo */
     margin-left: 200px; /* Move o quadrado para a direita */
@@ -27,7 +40,7 @@ header {
 .marcas{
     flex: 1;
     background-color: #004AAD;
-    border-radius:10px;
+    border-radius:5px;
     box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin-right: -1px;/*Move o quadrado para a esquerda */
@@ -53,6 +66,8 @@ width: 20%;
 
 
 .caixaDosDestaques{
+
+ 
     width: 200px;
     margin-right: 0px;/*Move o quadrado para a esquerda */
     margin-top: -1400px; /* Move o quadrado para baixo */
@@ -67,7 +82,7 @@ width: 20%;
 .Destaques{
     flex: 1;
     background-color: #004AAD;
-    border-radius:10px;
+    border-radius:5px;
     box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin-right: -1px;/*Move o quadrado para a esquerda */
@@ -78,4 +93,27 @@ width: 20%;
 
 
 
+
+
+
+    
 }
+
+.fundo{
+    position: absolute;
+    flex: 1;
+    background-color: #004AAD;
+    border-radius:5px;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+    padding: 20px; 
+    
+    left: 1300px; /* Move o quadrado para a direita */
+    width: 1200px;
+    height:900px;
+    margin-block: -1050px;
+ 
+
+}
+
+
+/* image overlay icon*/
