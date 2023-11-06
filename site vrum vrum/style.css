@@ -1,0 +1,80 @@
+body {
+     
+    background-image: linear-gradient( to right, #496692,#ffffff);
+
+  
+}
+
+header  {
+    background-color: #004AAD;
+    color: white;
+    text-align: left;
+    padding: 10px ;
+}
+
+.caixaDasMarcas{
+    width: 100px;
+    margin-right: 0px;/*Move o quadrado para a esquerda */
+    margin-top: 140px; /* Move o quadrado para baixo */
+    margin-left: 200px; /* Move o quadrado para a direita */
+  
+}
+
+
+
+
+
+.marcas{
+    flex: 1;
+    background-color: #004AAD;
+    border-radius:5px;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-right: -1px;/*Move o quadrado para a esquerda */
+    margin-left: -1px; /* Move o quadrado para a direita */
+    width: 110px;
+    height:110px;
+    margin-block: 20px;
+
+}
+
+/*PARTE DOS DESTAQUES*/
+
+
+.caixaDosDestaques{
+
+    
+    width: 200px;;
+    margin-right: 0px;/*Move o quadrado para a esquerda */
+    margin-top:-850px ;  /* Move o quadrado para baixo */
+    margin-left: 500px; /* Move o quadrado para a direita */
+}
+
+.Destaques{
+    flex: 1;
+    background-color: #004AAD;
+    border-radius:5px;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-right: -1px;/*Move o quadrado para a esquerda */
+    margin-left: -130px; /* Move o quadrado para a direita */
+    margin-top: 20px;
+    width: 300px;
+    height:110px;
+}
+
+
+.fundo{
+    position: absolute;
+    flex: 1;
+    background-color: #004AAD;
+    border-radius:5px;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+    padding: 20px; 
+    left: 1200px; /* Move o quadrado para a direita */
+    width: 900px;
+    height: 700px;
+    margin-block: -550px;
+    margin-top: -800px ;
+
+}
